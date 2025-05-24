@@ -44,11 +44,12 @@ $questions = [
     ]
 ];
 
+// initialise session
 if (!isset($_SESSION['pos'])) {
     $_SESSION['pos'] = 0;
     $_SESSION['pts'] = 0;
     $_SESSION['ordre'] = array_keys($questions);
-    shuffle($_SESSION['ordre']);
+    shuffle($_SESSION['ordre']); //melange l'ordre = shuffle
 }
 
 $pos = $_SESSION['pos'];
