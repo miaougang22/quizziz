@@ -40,7 +40,7 @@ $questions = [
     [
         'question' => "Quel équipe a gagné la ligue des champions 1967",
         'choices' => ["Jeunesse Sportive de kabylie", "AS Saint etienne", "Celtic Glasgow", "FC Bamako"],
-        'answer' => "USA"
+        'answer' => "Celtic Glasgow"
     ]
 ];
 
